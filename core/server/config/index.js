@@ -129,6 +129,7 @@ ConfigManager.prototype.set = function (config) {
     // onto our cached config object.  This allows us to only update our
     // local copy with properties that have been explicitly set.
     _.merge(this._config, config);
+    console.log(this._config)
 
     // Special case for the database config, which should be overridden not merged
 

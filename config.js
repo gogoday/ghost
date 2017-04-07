@@ -24,14 +24,16 @@ config = {
         server: {
             host: '127.0.0.1',
             port: '3000'
-        }
+        },
     },
 
     // ### Development **(default)**
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
         // Change this to your Ghost blog's published URL.
-        url: 'http://localhost:3000',
+        url: 'http://shaofei.wang',
+	beian_text: '粤ICP备17039135号',
+	beian_url: 'http://www.miitbeian.gov.cn/',
 
         // Example refferer policy
         // Visit https://www.w3.org/TR/referrer-policy/ for instructions

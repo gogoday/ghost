@@ -1749,6 +1749,11 @@ body.page-template .post-title {
     float: left;
 }
 
+.beian{
+    position: absolute;
+    left: 45%;
+}
+
 
 /* ==========================================================================
    12. Media Queries - Smaller than 900px
